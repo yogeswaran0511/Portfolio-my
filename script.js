@@ -78,4 +78,5 @@ sr.reveal(".skills-data", { interval: 100 });
 
 /*  SCROLL projects  */
 sr.reveal(".project-img", { interval: 200 });
+sr.reveal(".certificate-img", { interval: 200 });
 
