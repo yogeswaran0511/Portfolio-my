@@ -243,7 +243,7 @@ img {
 
 .home-img {
   position: absolute;
-  right: 0;
+  right: 8%;
   bottom: 0;
   width: 75%;
   border-radius: 15%;
@@ -577,6 +577,7 @@ img.man-icons {
     width: 39%;
     max-width: 420px;
     bottom: 20%;
+    right: 8%;
   }
 
   .about-container {
@@ -616,7 +617,7 @@ img.man-icons {
   }
 
   .home-img {
-    right: 5%;
+    right: 8%;
   }
 }
 
@@ -625,6 +626,7 @@ img.man-icons {
     width: 39%;
     max-width: 420px;
     bottom: 20%;
+    right: 8%;
   }
 
   .home-social {
