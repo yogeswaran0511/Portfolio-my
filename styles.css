@@ -437,6 +437,35 @@ img.man-icons {
   bottom: 0;
 }
 
+/*  CERTIFICATE  */
+
+.certificate-container {
+  gap: 2rem;
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: calc(100% - 2rem);
+  margin: auto;
+}
+
+.certificate-img {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.certificate-img img {
+  transition: 1s;
+  height: 300px;
+  width: 500px;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.certificate-img img:hover {
+  transform: scale(1.1);
+}
+
 /*  CONTACT  */
 .contact-input {
   width: 100%;
